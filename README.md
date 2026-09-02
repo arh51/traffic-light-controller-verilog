@@ -341,41 +341,6 @@ Example:
 
 ---
 
-## Project Structure
-
-```text
-traffic-light-controller-verilog/
-│
-├── rtl/
-│   └── traffic_light_controller.v
-│
-├── tb/
-│   └── traffic_light_tb.v
-│
-├── docs/
-│   ├── waveform.png
-│   └── block_diagram.png
-│
-└── README.md
-```
-
-### `rtl/`
-
-Contains the synthesizable Verilog RTL design.
-
-### `tb/`
-
-Contains the Verilog testbench used for simulation and verification.
-
-### `docs/`
-
-Contains documentation such as the block diagram and GTKWave waveform screenshot.
-
-### `README.md`
-
-Contains the project documentation.
-
----
 
 ## Key RTL Concepts Demonstrated
 
